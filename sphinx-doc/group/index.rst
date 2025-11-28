@@ -86,10 +86,12 @@ The use of OneDrive is strongly recommended for all long-term data storage. If y
 
   * Extensive training material, both on using Hawk and HPC in general, are provided by `ARCCA <https://arcca.github.io/>`_. For training on the SLURM queue, checkout also `this page <https://researchcomputing.princeton.edu/support/knowledge-base/slurm>`_.
 
-* `Isambard <https://gw4-isambard.github.io/docs/>`_ : The Tier-2 facility accessed through the GW4 consortium.
+* `Isambard <https://gw4-isambard.github.io/docs/>`_ and `Isambard3 <https://docs.isambard.ac.uk/>`_: The Tier-2 facilities accessed through the GW4 consortium.
 
 .. note::
-  * You need to login to the `XC50 sub-cluster <https://gw4-isambard.github.io/docs/user-guide/connecting.html#xci-marvell-thunder-x2>`_  to run calculations. Software and example job scripts are available at `/home/ca-alogsdail`
+  * For Isambard, you need to login to the `XC50 sub-cluster <https://gw4-isambard.github.io/docs/user-guide/connecting.html#xci-marvell-thunder-x2>`_  to run calculations. Software and example job scripts are available at `/home/ca-alogsdail`.
+
+  * For Isambard3, access is via invitation, rather than registration. Please speak with Andy if you'd like an account. Software and example job scripts are available at `/projects/c5b` (which is defined as the environment variable `$PROJECTDIR`).
 
 * `Young <https://www.rc.ucl.ac.uk/docs/Clusters/Young/>`_ and `ARCHER2 <https://www.archer2.ac.uk/>`_ : Our access is managed through the `Materials Chemistry Consortium <https://www.ucl.ac.uk/klmc/mcc/>`_, with proposal deadlines every 6 months. If you are applying for compute time, please review the group's `best practice guide and example applications <#best-practice-proposals>`_. All previously submitted applications are also listed on the MCC webpages.
 
@@ -99,7 +101,7 @@ The use of OneDrive is strongly recommended for all long-term data storage. If y
   * On ARCHER2, software and example job scripts are available at `/work/e05/e05-files-log/shared`
 
 .. warning::
-   On Hawk, Isambard, Young and ARCHER2, all the Python software you need is loaded in a "virtual environment" using our submission scripts. If you want to have your own versions of software, you can setup a personal `virtual environment <https://opensource.com/article/19/4/managing-python-packages>`_ or using `pip3 install --user <modulename>` (or, if `pip3` fails, use `python3 -m pip`). Make sure you have loaded the Python module beforehand!
+   On all HPC systems, the Python software you need is loaded in a "virtual environment" using our submission scripts. If you want to have your own versions of software, you can setup a personal `virtual environment <https://opensource.com/article/19/4/managing-python-packages>`_ or using `pip3 install --user <modulename>` (or, if `pip3` fails, use `python3 -m pip`). Make sure you have loaded the Python module beforehand!
 
 Administration (PhD)
 --------------------
