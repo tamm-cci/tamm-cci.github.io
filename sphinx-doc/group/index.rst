@@ -76,6 +76,9 @@ The use of OneDrive is strongly recommended for all long-term data storage. If y
 
 * | `Hawk <https://portal.supercomputing.wales/index.php/index/>`_ : The Welsh supercomputing facility. Documentation is `available here <https://arcca.gitpages.cardiff.ac.uk/websites/arcca-docs>`_.
   | Register to access through `this web portal <https://portal.supercomputing.wales/index.php/getting-access/>`_ and join project `SCW1057`.
+
+..
+  Comment: Storing this link for when Falcon is live for registrations. Oscar/Gabriel/Zhongwei's benchmarking slide deck: https://cf-my.sharepoint.com/:p:/g/personal/vanvureno_cardiff_ac_uk/IQCHup06xGGeR7PcCRVc7eRvAaZSTGrhtlvIoon_3NHWEcI?e=Dg2TGq. Sockets give ~20% speed-up.
   
 .. note::
   * When you login, you are in your home directory: `/home/<username>/`
@@ -91,7 +94,10 @@ The use of OneDrive is strongly recommended for all long-term data storage. If y
 .. note::
   * For Isambard, you need to login to the `XC50 sub-cluster <https://gw4-isambard.github.io/docs/user-guide/connecting.html#xci-marvell-thunder-x2>`_  to run calculations. Software and example job scripts are available at `/home/ca-alogsdail`.
 
-  * For Isambard3, access is via invitation, rather than registration. Please speak with Andy if you'd like an account. Software and example job scripts are available at `/projects/c5b` (which is defined as the environment variable `$PROJECTDIR`).
+  * For Isambard3, access is via invitation, rather than registration. Please speak with Andy if you'd like an account. Software and example job scripts are available at `/projects/c5b` (which is defined as the environment variable `$PROJECTDIR`). 
+
+..
+  * Sockets are strongly advised for performance benefits on both systems - see Matt's `benchmarking slide deck <>`_.
 
 * `Young <https://www.rc.ucl.ac.uk/docs/Clusters/Young/>`_ and `ARCHER2 <https://www.archer2.ac.uk/>`_ : Our access is managed through the `Materials Chemistry Consortium <https://www.ucl.ac.uk/klmc/mcc/>`_, with proposal deadlines every 6 months. If you are applying for compute time, please review the group's `best practice guide and example applications <#best-practice-proposals>`_. All previously submitted applications are also listed on the MCC webpages.
 
