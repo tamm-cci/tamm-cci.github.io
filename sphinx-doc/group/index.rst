@@ -92,9 +92,9 @@ The use of OneDrive is strongly recommended for all long-term data storage. If y
 * `Isambard <https://gw4-isambard.github.io/docs/>`_ and `Isambard3 <https://docs.isambard.ac.uk/>`_: The Tier-2 facilities accessed through the GW4 consortium.
 
 .. note::
-  * For Isambard, you need to login to the `XC50 sub-cluster <https://gw4-isambard.github.io/docs/user-guide/connecting.html#xci-marvell-thunder-x2>`_  to run calculations. Software and example job scripts are available at `/home/ca-alogsdail`.
+  * For Isambard, you need to login to the `XC50 sub-cluster <https://gw4-isambard.github.io/docs/user-guide/connecting.html#xci-marvell-thunder-x2>`_ to run calculations. Software and example job scripts are available at `/home/ca-alogsdail`.
 
-  * For Isambard3, access is via invitation, rather than registration. Please speak with Andy if you'd like an account. Software and example job scripts are available at `/projects/c5b` (which is defined as the environment variable `$PROJECTDIR`). 
+  * For Isambard3, access is via invitation, rather than registration. Please speak with Andy if you'd like an account. Software and example job scripts are available at `/projects/c5b` (which is defined as the environment variable `$PROJECTDIR`). Benchmarking data is available `here <https://cf-my.sharepoint.com/:p:/g/personal/logsdaila_cardiff_ac_uk/IQD6JpYEnyEBSL5O0I9fXsJDAdUZcqrq_VrDn3BHmIVKDO8?e=QLzctY>`_. 
 
 ..
   * Sockets are strongly advised for performance benefits on both systems - see Matt's `benchmarking slide deck <>`_.
@@ -179,7 +179,7 @@ This is an eclectic collection of all the things that'll help you on your way. S
     * `Online Equation Generator <https://editor.codecogs.com/>`_
 
 * Funding:
-
+  
 .. _Best_Practice_Proposals:
 
   * Group Documents: `Best practice for writing proposals and responding to reviews <https://cf-my.sharepoint.com/:w:/g/personal/logsdaila_cardiff_ac_uk/ESU0xd6lax9Mp0isV6GXbegB-n5BdgVHDePU7t9aCAhJrA?e=4ZnTpS>`_. Examples: `[1] <https://cf-my.sharepoint.com/:w:/g/personal/logsdaila_cardiff_ac_uk/EYPdsY30WDFOvlQQ03aKFpABO9h74MT7fUwdb2uHzVrh6g?e=Dc9JwF>`_, `[2] <https://cf-my.sharepoint.com/:w:/g/personal/logsdaila_cardiff_ac_uk/EYNcOBBPM01Psd_wo-rW7PMB0TxzmXcpP4TrojDrPrWUQw?e=q1iv9h>`_. 
