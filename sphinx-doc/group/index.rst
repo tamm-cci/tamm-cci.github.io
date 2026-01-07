@@ -99,7 +99,7 @@ The use of OneDrive is strongly recommended for all long-term data storage. If y
 ..
   * Sockets are strongly advised for performance benefits on both systems - see Matt's `benchmarking slide deck <>`_.
 
-* `Young <https://www.rc.ucl.ac.uk/docs/Clusters/Young/>`_ and `ARCHER2 <https://www.archer2.ac.uk/>`_ : Our access is managed through the `Materials Chemistry Consortium <https://www.ucl.ac.uk/klmc/mcc/>`_, with proposal deadlines every 6 months. If you are applying for compute time, please review the group's `best practice guide and example applications <#best-practice-proposals>`_. All previously submitted applications are also listed on the MCC webpages.
+* `Young <https://www.rc.ucl.ac.uk/docs/Clusters/Young/>`_ and `ARCHER2 <https://www.archer2.ac.uk/>`_ : Our access is managed through the `Materials Chemistry Consortium <https://mcc.chem.ucl.ac.uk/>`_, with proposal deadlines every 6 months. If you are applying for compute time, please review the group's `best practice guide and example applications <#best-practice-proposals>`_. All previously submitted applications are also listed on the MCC webpages.
 
 .. note::
   * On Young, software and example job scripts are available at `/home/mmm0170`
