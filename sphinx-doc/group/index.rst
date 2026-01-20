@@ -74,18 +74,15 @@ The use of OneDrive is strongly recommended for all long-term data storage. If y
 .. warning::
   For optimum efficiency when using ASE with FHI-aims, make sure to run your calculations on HPC using the sockets calculator interface. Read more in `our Jupyter notebook <https://github.com/tamm-cci/external_examples/blob/master/notebooks/ASE/sockets.ipynb>`_.
 
-* | `Hawk <https://portal.supercomputing.wales/index.php/index/>`_ : The Welsh supercomputing facility. Documentation is `available here <https://arcca.gitpages.cardiff.ac.uk/websites/arcca-docs>`_.
-  | Register to access through `this web portal <https://portal.supercomputing.wales/index.php/getting-access/>`_ and join project `SCW1057`.
+* | `Falcon <https://wiki.arcca.cf.ac.uk/index.php/The_Falcon_Supercomputer>`_: The Cardiff University high-performance computing facility. Documentation on accessing is `available here <https://wiki.arcca.cf.ac.uk/index.php/New_User_Falcon_Registration>`_. Benchmark data is available `here <https://cf-my.sharepoint.com/:p:/g/personal/vanvureno_cardiff_ac_uk/IQCHup06xGGeR7PcCRVc7eRvAaZSTGrhtlvIoon_3NHWEcI?e=Dg2TGq>`_.
+  | Register to access through `this web portal <https://cogs.cf.ac.uk/>`_. Once complete, please speak with Andy and he'll add you to project `SCWF00007`.
 
-..
-  Comment: Storing this link for when Falcon is live for registrations. Oscar/Gabriel/Zhongwei's benchmarking slide deck: https://cf-my.sharepoint.com/:p:/g/personal/vanvureno_cardiff_ac_uk/IQCHup06xGGeR7PcCRVc7eRvAaZSTGrhtlvIoon_3NHWEcI?e=Dg2TGq. Sockets give ~20% speed-up.
-  
 .. note::
-  * When you login, you are in your home directory: `/home/<username>/`
+  * When you login, you are in your home directory: `/shared/home1/<username>/`
 
-  * Work is done in the scratch directory only: `/scratch/<username>/`
+  * Work is done in the **shared** project scratch directory (only): `/scratch/SCWF00007/`. (You may want to create your own subfolder to work in.)
 
-  * Examples of how to run software is in the project shared directory: `/home/scw1057/`
+  * Examples of how to run software is in the project application directory: `/shared/home2/app_shared/SCWF00007/`
 
   * Extensive training material, both on using Hawk and HPC in general, are provided by `ARCCA <https://arcca.github.io/>`_. For training on the SLURM queue, checkout also `this page <https://researchcomputing.princeton.edu/support/knowledge-base/slurm>`_.
 
