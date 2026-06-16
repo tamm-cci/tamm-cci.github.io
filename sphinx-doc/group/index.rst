@@ -87,7 +87,7 @@ The use of OneDrive is strongly recommended for all long-term data storage. If y
 
   * Extensive training material, both on using Hawk and HPC in general, are provided by `ARCCA <https://arcca.github.io/>`_. For training on the SLURM queue, checkout also `this page <https://researchcomputing.princeton.edu/support/knowledge-base/slurm>`_.
 
-* `Isambard <https://gw4-isambard.github.io/docs/>`_ and `Isambard3 <https://docs.isambard.ac.uk/>`_: The Tier-2 facilities accessed through the GW4 consortium.
+* `Isambard3 <https://docs.isambard.ac.uk/>`_: The Tier-2 facilities accessed through the GW4 consortium.
 
 .. note::
 
