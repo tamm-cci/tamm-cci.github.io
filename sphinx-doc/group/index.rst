@@ -108,7 +108,11 @@ Administration (PhD)
 | Throughout the PhD, you'll have to do paperwork to ensure continuous progression. 
 | All documents for this are on `Learning Central <https://learningcentral.cf.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_3387725_1&course_id=_368439_1>`_ under "CHEMY - Research Student Information".
 
-If you encounter issues, the Chemistry PGR Office are available to help - just pop and say hi, or email them at Chemistry-PGR@cardiff.ac.uk. 
+If you encounter issues, the Chemistry PGR Office are available to help - just pop and say hi, or email them at Chemistry-PGR@cardiff.ac.uk.
+
+Administration (Other)
+______________________
+For all other incoming students, staff and PhD students should manage administration (generally). Valuable directions for organising building access are available `here <https://cf-my.sharepoint.com/:w:/g/personal/logsdaila_cardiff_ac_uk/IQBsNfXH4VKyR5dH6ajQ1-4mAQMrYo_KXk4l1jRStx6ax1Y?e=ijGpeT>`_.
 
 General Resources
 -----------------
