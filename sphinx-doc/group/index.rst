@@ -74,7 +74,8 @@ The use of OneDrive is strongly recommended for all long-term data storage. If y
 .. warning::
   For optimum efficiency when using ASE with FHI-aims, make sure to run your calculations on HPC using the sockets calculator interface. Read more in `our Jupyter notebook <https://github.com/tamm-cci/external_examples/blob/master/notebooks/ASE/sockets.ipynb>`_.
 
-* | `Falcon <https://wiki.arcca.cf.ac.uk/index.php/The_Falcon_Supercomputer>`_: The Cardiff University high-performance computing facility. Documentation on accessing is `available here <https://wiki.arcca.cf.ac.uk/index.php/New_User_Falcon_Registration>`_. Benchmark data is available `here <https://cf-my.sharepoint.com/:p:/g/personal/vanvureno_cardiff_ac_uk/IQCHup06xGGeR7PcCRVc7eRvAaZSTGrhtlvIoon_3NHWEcI?e=Dg2TGq>`_.
+* | `Falcon <https://wiki.arcca.cf.ac.uk/index.php/The_Falcon_Supercomputer>`_: The Cardiff University high-performance computing facility. Documentation on accessing is `available here <https://wiki.arcca.cf.ac.uk/index.php/New_User_Falcon_Registration>`_. Benchmark data is available `here <https://cf-my.sharepoint.com/:p:/g/personal/vanvureno_cardiff_ac_uk/IQCHup06xGGeR7PcCRVc7eRvAaZSTGrhtlvIoon_3NHWEcI?e=Dg2TGq>`_.i
+  |
   | Register to access through `this web portal <https://cogs.cf.ac.uk/>`_. Once complete, please speak with Andy and he'll add you to project `SCWF00007`.
 
 .. note::
@@ -91,8 +92,6 @@ The use of OneDrive is strongly recommended for all long-term data storage. If y
 .. note::
 
   * For Isambard3, access is via invitation, rather than registration. Please speak with Andy if you'd like an account. Software and example job scripts are available at `/projects/c5b` (which is defined as the environment variable `$PROJECTDIR`). Benchmarking data is available `here <https://cf-my.sharepoint.com/:p:/g/personal/logsdaila_cardiff_ac_uk/IQD6JpYEnyEBSL5O0I9fXsJDAdUZcqrq_VrDn3BHmIVKDO8?e=QLzctY>`_. Advanced instructions for configuring job scripts are available on the `official documentation pages <https://docs.isambard.ac.uk/user-documentation/guides/slurm-advanced/#multi-node-jobs-isambard-3>`_.
-
-  * Sockets are *strongly* advised for performance benefits on this system.
 
 * `Young <https://www.rc.ucl.ac.uk/docs/Clusters/Young/>`_ and `ARCHER2 <https://www.archer2.ac.uk/>`_ : Our access is managed through the `Materials Chemistry Consortium <https://mcc.chem.ucl.ac.uk/>`_, with proposal deadlines every 6 months. If you are applying for compute time, please review the group's `best practice guide and example applications <#best-practice-proposals>`_. All previously submitted applications are also listed on the MCC webpages.
 
