@@ -89,12 +89,10 @@ The use of OneDrive is strongly recommended for all long-term data storage. If y
 * `Isambard <https://gw4-isambard.github.io/docs/>`_ and `Isambard3 <https://docs.isambard.ac.uk/>`_: The Tier-2 facilities accessed through the GW4 consortium.
 
 .. note::
-  * For Isambard, you need to login to the `XC50 sub-cluster <https://gw4-isambard.github.io/docs/user-guide/connecting.html#xci-marvell-thunder-x2>`_ to run calculations. Software and example job scripts are available at `/home/ca-alogsdail`.
 
-  * For Isambard3, access is via invitation, rather than registration. Please speak with Andy if you'd like an account. Software and example job scripts are available at `/projects/c5b` (which is defined as the environment variable `$PROJECTDIR`). Benchmarking data is available `here <https://cf-my.sharepoint.com/:p:/g/personal/logsdaila_cardiff_ac_uk/IQD6JpYEnyEBSL5O0I9fXsJDAdUZcqrq_VrDn3BHmIVKDO8?e=QLzctY>`_. 
+  * For Isambard3, access is via invitation, rather than registration. Please speak with Andy if you'd like an account. Software and example job scripts are available at `/projects/c5b` (which is defined as the environment variable `$PROJECTDIR`). Benchmarking data is available `here <https://cf-my.sharepoint.com/:p:/g/personal/logsdaila_cardiff_ac_uk/IQD6JpYEnyEBSL5O0I9fXsJDAdUZcqrq_VrDn3BHmIVKDO8?e=QLzctY>`_. Advanced instructions for configuring job scripts are available on the `official documentation pages <https://docs.isambard.ac.uk/user-documentation/guides/slurm-advanced/#multi-node-jobs-isambard-3>`_.
 
-..
-  * Sockets are strongly advised for performance benefits on both systems - see Matt's `benchmarking slide deck <>`_.
+  * Sockets are *strongly* advised for performance benefits on this system.
 
 * `Young <https://www.rc.ucl.ac.uk/docs/Clusters/Young/>`_ and `ARCHER2 <https://www.archer2.ac.uk/>`_ : Our access is managed through the `Materials Chemistry Consortium <https://mcc.chem.ucl.ac.uk/>`_, with proposal deadlines every 6 months. If you are applying for compute time, please review the group's `best practice guide and example applications <#best-practice-proposals>`_. All previously submitted applications are also listed on the MCC webpages.
 
