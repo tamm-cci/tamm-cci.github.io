@@ -111,7 +111,7 @@ Administration (PhD)
 If you encounter issues, the Chemistry PGR Office are available to help - just pop and say hi, or email them at Chemistry-PGR@cardiff.ac.uk.
 
 Administration (Other)
-______________________
+----------------------
 For all other incoming students, staff and PhD students should manage administration (generally). Valuable directions for organising building access are available `here <https://cf-my.sharepoint.com/:w:/g/personal/logsdaila_cardiff_ac_uk/IQBsNfXH4VKyR5dH6ajQ1-4mAQMrYo_KXk4l1jRStx6ax1Y?e=ijGpeT>`_.
 
 General Resources
