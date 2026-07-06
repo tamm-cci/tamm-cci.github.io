@@ -57,7 +57,7 @@ Tutorials
 .. note:: 
   An IDE is strongly recommended for programming. `PyCharmm <https://www.jetbrains.com/pycharm/>`_ is particularly nice as it integrates seamlessly with GitHub! And you might also want to consider `CodeTogether <https://www.codetogether.com/>`_ as a plugin for collaborative coding.
 
-* `Atomic Simulation Environment <https://wiki.fysik.dtu.dk/ase/tutorials/tutorials.html>`_ : Our main working environment for running simulations, great for manipulating atoms.
+* `Atomic Simulation Environment <https://docs.ase-lib.org/examples_generated/index.html>`_ : Our main working environment for running simulations, great for manipulating atoms.
 
 * | `FHI-aims <https://fhi-aims-club.gitlab.io/tutorials/tutorials-overview/>`_ : Quantum mechanical software for calculating electronic structure of molecules and materials. (PDF version of tutorials `also available <https://th.fhi-berlin.mpg.de/th/meetings/DFT-workshop-Berlin2011/presentations/2011-07-13_tutorial1_handout.pdf>`_, and the manual is `online <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/Ec7nlupYyl9HiOrP-yzxlWsByy969L-BtTaflkitL8xGmw?e=a1junU>`_ also.)
 
