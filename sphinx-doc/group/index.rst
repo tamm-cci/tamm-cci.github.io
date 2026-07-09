@@ -61,6 +61,8 @@ Tutorials
 
 * | `FHI-aims <https://fhi-aims-club.gitlab.io/tutorials/tutorials-overview/>`_ : Quantum mechanical software for calculating electronic structure of molecules and materials. (PDF version of tutorials `also available <https://th.fhi-berlin.mpg.de/th/meetings/DFT-workshop-Berlin2011/presentations/2011-07-13_tutorial1_handout.pdf>`_, and the manual is `online <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/Ec7nlupYyl9HiOrP-yzxlWsByy969L-BtTaflkitL8xGmw?e=a1junU>`_ also.)
 
+* | `MACE <https://github.com/acesuit/mace>`_ : Machine-learning forcefield model that is great for learning the ropes of MM, and also can be tuned to specific problems for accurate applications. Tutorials are available `here also <https://mace-docs.readthedocs.io/en/latest/examples/tutorials.html>`_.
+
 * | `ChemShell <https://chemshell.org/static_files/py-chemshell/tutorial/build/html/index.html>`_ : A Pythonic environment for running QM/MM calculations.
 
 .. note::
