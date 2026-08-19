@@ -76,7 +76,7 @@ The use of OneDrive is strongly recommended for all long-term data storage. If y
 .. warning::
   For optimum efficiency when using ASE with FHI-aims, make sure to run your calculations on HPC using the sockets calculator interface. Read more in `our Jupyter notebook <https://github.com/tamm-cci/external_examples/blob/master/notebooks/ASE/sockets.ipynb>`_.
 
-* | `Falcon <https://wiki.arcca.cf.ac.uk/index.php/The_Falcon_Supercomputer>`_: The Cardiff University high-performance computing facility. Documentation on accessing is `available here <https://wiki.arcca.cf.ac.uk/index.php/New_User_Falcon_Registration>`_. Benchmark data is available `here <https://cf-my.sharepoint.com/:p:/g/personal/vanvureno_cardiff_ac_uk/IQCHup06xGGeR7PcCRVc7eRvAaZSTGrhtlvIoon_3NHWEcI?e=Dg2TGq>`_.i
+* | `Falcon <https://wiki.arcca.cf.ac.uk/index.php/The_Falcon_Supercomputer>`_: The Cardiff University high-performance computing facility. Documentation on accessing is `available here <https://wiki.arcca.cf.ac.uk/index.php/New_User_Falcon_Registration>`_. Benchmark data is available `here <https://cf-my.sharepoint.com/:p:/g/personal/vanvureno_cardiff_ac_uk/IQCHup06xGGeR7PcCRVc7eRvAaZSTGrhtlvIoon_3NHWEcI?e=Dg2TGq>`_.
   |
   | Register to access through `this web portal <https://cogs.cf.ac.uk/>`_. Once complete, please speak with Andy and he'll add you to project `SCWF00007`.
 
