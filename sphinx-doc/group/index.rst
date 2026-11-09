@@ -57,9 +57,11 @@ Tutorials
 .. note:: 
   An IDE is strongly recommended for programming. `PyCharmm <https://www.jetbrains.com/pycharm/>`_ is particularly nice as it integrates seamlessly with GitHub! And you might also want to consider `CodeTogether <https://www.codetogether.com/>`_ as a plugin for collaborative coding.
 
-* `Atomic Simulation Environment <https://wiki.fysik.dtu.dk/ase/tutorials/tutorials.html>`_ : Our main working environment for running simulations, great for manipulating atoms.
+* `Atomic Simulation Environment <https://docs.ase-lib.org/examples_generated/index.html>`_ : Our main working environment for running simulations, great for manipulating atoms.
 
 * | `FHI-aims <https://fhi-aims-club.gitlab.io/tutorials/tutorials-overview/>`_ : Quantum mechanical software for calculating electronic structure of molecules and materials. (PDF version of tutorials `also available <https://th.fhi-berlin.mpg.de/th/meetings/DFT-workshop-Berlin2011/presentations/2011-07-13_tutorial1_handout.pdf>`_, and the manual is `online <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/Ec7nlupYyl9HiOrP-yzxlWsByy969L-BtTaflkitL8xGmw?e=a1junU>`_ also.)
+
+* | `MACE <https://github.com/acesuit/mace>`_ : Machine-learning forcefield model that is great for learning the ropes of MM, and also can be tuned to specific problems for accurate applications. Tutorials are available `here also <https://mace-docs.readthedocs.io/en/latest/examples/tutorials.html>`_.
 
 * | `ChemShell <https://chemshell.org/static_files/py-chemshell/tutorial/build/html/index.html>`_ : A Pythonic environment for running QM/MM calculations.
 
@@ -74,24 +76,26 @@ The use of OneDrive is strongly recommended for all long-term data storage. If y
 .. warning::
   For optimum efficiency when using ASE with FHI-aims, make sure to run your calculations on HPC using the sockets calculator interface. Read more in `our Jupyter notebook <https://github.com/tamm-cci/external_examples/blob/master/notebooks/ASE/sockets.ipynb>`_.
 
-* | `Hawk <https://portal.supercomputing.wales/index.php/index/>`_ : The Welsh supercomputing facility. Documentation is `available here <https://arcca.gitpages.cardiff.ac.uk/websites/arcca-docs>`_.
-  | Register to access through `this web portal <https://portal.supercomputing.wales/index.php/getting-access/>`_ and join project `SCW1057`.
-  
+* | `Falcon <https://wiki.arcca.cf.ac.uk/index.php/The_Falcon_Supercomputer>`_: The Cardiff University high-performance computing facility. Documentation on accessing is `available here <https://wiki.arcca.cf.ac.uk/index.php/New_User_Falcon_Registration>`_. Benchmark data is available `here <https://cf-my.sharepoint.com/:p:/g/personal/vanvureno_cardiff_ac_uk/IQCHup06xGGeR7PcCRVc7eRvAaZSTGrhtlvIoon_3NHWEcI?e=Dg2TGq>`_.
+  |
+  | Register to access through `this web portal <https://cogs.cf.ac.uk/>`_. Once complete, please speak with Andy and he'll add you to project `SCWF00007`.
+
 .. note::
-  * When you login, you are in your home directory: `/home/<username>/`
+  * When you login, you are in your home directory: `/shared/home1/<username>/`
 
-  * Work is done in the scratch directory only: `/scratch/<username>/`
+  * Work is done in the **shared** project scratch directory (only): `/scratch/SCWF00007/`. (You may want to create your own subfolder to work in.)
 
-  * Examples of how to run software is in the project shared directory: `/home/scw1057/`
+  * Examples of how to run software is in the project application directory: `/shared/home2/app_shared/SCWF00007/`
 
   * Extensive training material, both on using Hawk and HPC in general, are provided by `ARCCA <https://arcca.github.io/>`_. For training on the SLURM queue, checkout also `this page <https://researchcomputing.princeton.edu/support/knowledge-base/slurm>`_.
 
-* `Isambard <https://gw4-isambard.github.io/docs/>`_ : The Tier-2 facility accessed through the GW4 consortium.
+* `Isambard3 <https://docs.isambard.ac.uk/>`_: The Tier-2 facilities accessed through the GW4 consortium.
 
 .. note::
-  * You need to login to the `XC50 sub-cluster <https://gw4-isambard.github.io/docs/user-guide/connecting.html#xci-marvell-thunder-x2>`_  to run calculations. Software and example job scripts are available at `/home/ca-alogsdail`
 
-* `Young <https://www.rc.ucl.ac.uk/docs/Clusters/Young/>`_ and `ARCHER2 <https://www.archer2.ac.uk/>`_ : Our access is managed through the `Materials Chemistry Consortium <https://www.ucl.ac.uk/klmc/mcc/>`_, with proposal deadlines every 6 months. If you are applying for compute time, please review the group's `best practice guide and example applications <#best-practice-proposals>`_. All previously submitted applications are also listed on the MCC webpages.
+  * For Isambard3, access is via invitation, rather than registration. Please speak with Andy if you'd like an account. Software and example job scripts are available at `/projects/c5b` (which is defined as the environment variable `$PROJECTDIR`). Benchmarking data is available `here <https://cf-my.sharepoint.com/:p:/g/personal/logsdaila_cardiff_ac_uk/IQD6JpYEnyEBSL5O0I9fXsJDAdUZcqrq_VrDn3BHmIVKDO8?e=QLzctY>`_. Advanced instructions for configuring job scripts are available on the `official documentation pages <https://docs.isambard.ac.uk/user-documentation/guides/slurm-advanced/#multi-node-jobs-isambard-3>`_.
+
+* `Young <https://www.rc.ucl.ac.uk/docs/Clusters/Young/>`_ and `ARCHER2 <https://www.archer2.ac.uk/>`_ : Our access is managed through the `Materials Chemistry Consortium <https://mcc.chem.ucl.ac.uk/>`_, with proposal deadlines every 6 months. If you are applying for compute time, please review the group's `best practice guide and example applications <#best-practice-proposals>`_. All previously submitted applications are also listed on the MCC webpages.
 
 .. note::
   * On Young, software and example job scripts are available at `/home/mmm0170`
@@ -99,14 +103,18 @@ The use of OneDrive is strongly recommended for all long-term data storage. If y
   * On ARCHER2, software and example job scripts are available at `/work/e05/e05-files-log/shared`
 
 .. warning::
-   On Hawk, Isambard, Young and ARCHER2, all the Python software you need is loaded in a "virtual environment" using our submission scripts. If you want to have your own versions of software, you can setup a personal `virtual environment <https://opensource.com/article/19/4/managing-python-packages>`_ or using `pip3 install --user <modulename>` (or, if `pip3` fails, use `python3 -m pip`). Make sure you have loaded the Python module beforehand!
+   On all HPC systems, the Python software you need is loaded in a "virtual environment" using our submission scripts. If you want to have your own versions of software, you can setup a personal `virtual environment <https://opensource.com/article/19/4/managing-python-packages>`_ or using `pip3 install --user <modulename>` (or, if `pip3` fails, use `python3 -m pip`). Make sure you have loaded the Python module beforehand!
 
 Administration (PhD)
 --------------------
 | Throughout the PhD, you'll have to do paperwork to ensure continuous progression. 
 | All documents for this are on `Learning Central <https://learningcentral.cf.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_3387725_1&course_id=_368439_1>`_ under "CHEMY - Research Student Information".
 
-If you encounter issues, the Chemistry PGR Office are available to help - just pop and say hi, or email them at Chemistry-PGR@cardiff.ac.uk. 
+If you encounter issues, the Chemistry PGR Office are available to help - just pop and say hi, or email them at Chemistry-PGR@cardiff.ac.uk.
+
+Administration (Other)
+----------------------
+For all other incoming students, staff and PhD students should manage administration (generally). Valuable directions for organising building access are available `here <https://cf-my.sharepoint.com/:w:/g/personal/logsdaila_cardiff_ac_uk/IQBsNfXH4VKyR5dH6ajQ1-4mAQMrYo_KXk4l1jRStx6ax1Y?e=ijGpeT>`_.
 
 General Resources
 -----------------
@@ -171,7 +179,7 @@ This is an eclectic collection of all the things that'll help you on your way. S
     * `Online Equation Generator <https://editor.codecogs.com/>`_
 
 * Funding:
-
+  
 .. _Best_Practice_Proposals:
 
   * Group Documents: `Best practice for writing proposals and responding to reviews <https://cf-my.sharepoint.com/:w:/g/personal/logsdaila_cardiff_ac_uk/ESU0xd6lax9Mp0isV6GXbegB-n5BdgVHDePU7t9aCAhJrA?e=4ZnTpS>`_. Examples: `[1] <https://cf-my.sharepoint.com/:w:/g/personal/logsdaila_cardiff_ac_uk/EYPdsY30WDFOvlQQ03aKFpABO9h74MT7fUwdb2uHzVrh6g?e=Dc9JwF>`_, `[2] <https://cf-my.sharepoint.com/:w:/g/personal/logsdaila_cardiff_ac_uk/EYNcOBBPM01Psd_wo-rW7PMB0TxzmXcpP4TrojDrPrWUQw?e=q1iv9h>`_. 

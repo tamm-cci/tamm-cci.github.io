@@ -111,9 +111,13 @@ For postgraduates and staff, <strong>if a meeting is not held on a given week</s
 <p>An IDE is strongly recommended for programming. <a class="reference external" href="https://www.jetbrains.com/pycharm/">PyCharmm</a> is particularly nice as it integrates seamlessly with GitHub! And you might also want to consider <a class="reference external" href="https://www.codetogether.com/">CodeTogether</a> as a plugin for collaborative coding.</p>
 </div>
 <ul>
-<li><p><a class="reference external" href="https://wiki.fysik.dtu.dk/ase/tutorials/tutorials.html">Atomic Simulation Environment</a> : Our main working environment for running simulations, great for manipulating atoms.</p></li>
+<li><p><a class="reference external" href="https://docs.ase-lib.org/examples_generated/index.html">Atomic Simulation Environment</a> : Our main working environment for running simulations, great for manipulating atoms.</p></li>
 <li><div class="line-block">
 <div class="line"><a class="reference external" href="https://fhi-aims-club.gitlab.io/tutorials/tutorials-overview/">FHI-aims</a> : Quantum mechanical software for calculating electronic structure of molecules and materials. (PDF version of tutorials <a class="reference external" href="https://th.fhi-berlin.mpg.de/th/meetings/DFT-workshop-Berlin2011/presentations/2011-07-13_tutorial1_handout.pdf">also available</a>, and the manual is <a class="reference external" href="https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/Ec7nlupYyl9HiOrP-yzxlWsByy969L-BtTaflkitL8xGmw?e=a1junU">online</a> also.)</div>
+</div>
+</li>
+<li><div class="line-block">
+<div class="line"><a class="reference external" href="https://github.com/acesuit/mace">MACE</a> : Machine-learning forcefield model that is great for learning the ropes of MM, and also can be tuned to specific problems for accurate applications. Tutorials are available <a class="reference external" href="https://mace-docs.readthedocs.io/en/latest/examples/tutorials.html">here also</a>.</div>
 </div>
 </li>
 <li><div class="line-block">
@@ -135,31 +139,32 @@ For postgraduates and staff, <strong>if a meeting is not held on a given week</s
 </div>
 <ul>
 <li><div class="line-block">
-<div class="line"><a class="reference external" href="https://portal.supercomputing.wales/index.php/index/">Hawk</a> : The Welsh supercomputing facility. Documentation is <a class="reference external" href="https://arcca.gitpages.cardiff.ac.uk/websites/arcca-docs">available here</a>.</div>
-<div class="line">Register to access through <a class="reference external" href="https://portal.supercomputing.wales/index.php/getting-access/">this web portal</a> and join project <cite>SCW1057</cite>.</div>
+<div class="line"><a class="reference external" href="https://wiki.arcca.cf.ac.uk/index.php/The_Falcon_Supercomputer">Falcon</a>: The Cardiff University high-performance computing facility. Documentation on accessing is <a class="reference external" href="https://wiki.arcca.cf.ac.uk/index.php/New_User_Falcon_Registration">available here</a>. Benchmark data is available <a class="reference external" href="https://cf-my.sharepoint.com/:p:/g/personal/vanvureno_cardiff_ac_uk/IQCHup06xGGeR7PcCRVc7eRvAaZSTGrhtlvIoon_3NHWEcI?e=Dg2TGq">here</a>.</div>
+<div class="line"><br /></div>
+<div class="line">Register to access through <a class="reference external" href="https://cogs.cf.ac.uk/">this web portal</a>. Once complete, please speak with Andy and he’ll add you to project <cite>SCWF00007</cite>.</div>
 </div>
 </li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ul class="simple">
-<li><p>When you login, you are in your home directory: <cite>/home/&lt;username&gt;/</cite></p></li>
-<li><p>Work is done in the scratch directory only: <cite>/scratch/&lt;username&gt;/</cite></p></li>
-<li><p>Examples of how to run software is in the project shared directory: <cite>/home/scw1057/</cite></p></li>
+<li><p>When you login, you are in your home directory: <cite>/shared/home1/&lt;username&gt;/</cite></p></li>
+<li><p>Work is done in the <strong>shared</strong> project scratch directory (only): <cite>/scratch/SCWF00007/</cite>. (You may want to create your own subfolder to work in.)</p></li>
+<li><p>Examples of how to run software is in the project application directory: <cite>/shared/home2/app_shared/SCWF00007/</cite></p></li>
 <li><p>Extensive training material, both on using Hawk and HPC in general, are provided by <a class="reference external" href="https://arcca.github.io/">ARCCA</a>. For training on the SLURM queue, checkout also <a class="reference external" href="https://researchcomputing.princeton.edu/support/knowledge-base/slurm">this page</a>.</p></li>
 </ul>
 </div>
 <ul class="simple">
-<li><p><a class="reference external" href="https://gw4-isambard.github.io/docs/">Isambard</a> : The Tier-2 facility accessed through the GW4 consortium.</p></li>
+<li><p><a class="reference external" href="https://docs.isambard.ac.uk/">Isambard3</a>: The Tier-2 facilities accessed through the GW4 consortium.</p></li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ul class="simple">
-<li><p>You need to login to the <a class="reference external" href="https://gw4-isambard.github.io/docs/user-guide/connecting.html#xci-marvell-thunder-x2">XC50 sub-cluster</a>  to run calculations. Software and example job scripts are available at <cite>/home/ca-alogsdail</cite></p></li>
+<li><p>For Isambard3, access is via invitation, rather than registration. Please speak with Andy if you’d like an account. Software and example job scripts are available at <cite>/projects/c5b</cite> (which is defined as the environment variable <cite>$PROJECTDIR</cite>). Benchmarking data is available <a class="reference external" href="https://cf-my.sharepoint.com/:p:/g/personal/logsdaila_cardiff_ac_uk/IQD6JpYEnyEBSL5O0I9fXsJDAdUZcqrq_VrDn3BHmIVKDO8?e=QLzctY">here</a>. Advanced instructions for configuring job scripts are available on the <a class="reference external" href="https://docs.isambard.ac.uk/user-documentation/guides/slurm-advanced/#multi-node-jobs-isambard-3">official documentation pages</a>.</p></li>
 </ul>
 </div>
 <ul class="simple">
-<li><p><a class="reference external" href="https://www.rc.ucl.ac.uk/docs/Clusters/Young/">Young</a> and <a class="reference external" href="https://www.archer2.ac.uk/">ARCHER2</a> : Our access is managed through the <a class="reference external" href="https://www.ucl.ac.uk/klmc/mcc/">Materials Chemistry Consortium</a>, with proposal deadlines every 6 months. If you are applying for compute time, please review the group’s <a class="reference external" href="#best-practice-proposals">best practice guide and example applications</a>. All previously submitted applications are also listed on the MCC webpages.</p></li>
+<li><p><a class="reference external" href="https://www.rc.ucl.ac.uk/docs/Clusters/Young/">Young</a> and <a class="reference external" href="https://www.archer2.ac.uk/">ARCHER2</a> : Our access is managed through the <a class="reference external" href="https://mcc.chem.ucl.ac.uk/">Materials Chemistry Consortium</a>, with proposal deadlines every 6 months. If you are applying for compute time, please review the group’s <a class="reference external" href="#best-practice-proposals">best practice guide and example applications</a>. All previously submitted applications are also listed on the MCC webpages.</p></li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -170,7 +175,7 @@ For postgraduates and staff, <strong>if a meeting is not held on a given week</s
 </div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>On Hawk, Isambard, Young and ARCHER2, all the Python software you need is loaded in a “virtual environment” using our submission scripts. If you want to have your own versions of software, you can setup a personal <a class="reference external" href="https://opensource.com/article/19/4/managing-python-packages">virtual environment</a> or using <cite>pip3 install –user &lt;modulename&gt;</cite> (or, if <cite>pip3</cite> fails, use <cite>python3 -m pip</cite>). Make sure you have loaded the Python module beforehand!</p>
+<p>On all HPC systems, the Python software you need is loaded in a “virtual environment” using our submission scripts. If you want to have your own versions of software, you can setup a personal <a class="reference external" href="https://opensource.com/article/19/4/managing-python-packages">virtual environment</a> or using <cite>pip3 install –user &lt;modulename&gt;</cite> (or, if <cite>pip3</cite> fails, use <cite>python3 -m pip</cite>). Make sure you have loaded the Python module beforehand!</p>
 </div>
 </section>
 <section id="administration-phd">
@@ -180,6 +185,10 @@ For postgraduates and staff, <strong>if a meeting is not held on a given week</s
 <div class="line">All documents for this are on <a class="reference external" href="https://learningcentral.cf.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_3387725_1&amp;course_id=_368439_1">Learning Central</a> under “CHEMY - Research Student Information”.</div>
 </div>
 <p>If you encounter issues, the Chemistry PGR Office are available to help - just pop and say hi, or email them at <a class="reference external" href="mailto:Chemistry-PGR&#37;&#52;&#48;cardiff&#46;ac&#46;uk">Chemistry-PGR<span>&#64;</span>cardiff<span>&#46;</span>ac<span>&#46;</span>uk</a>.</p>
+</section>
+<section id="administration-other">
+<h1>Administration (Other)<a class="headerlink" href="#administration-other" title="Link to this heading">¶</a></h1>
+<p>For all other incoming students, staff and PhD students should manage administration (generally). Valuable directions for organising building access are available <a class="reference external" href="https://cf-my.sharepoint.com/:w:/g/personal/logsdaila_cardiff_ac_uk/IQBsNfXH4VKyR5dH6ajQ1-4mAQMrYo_KXk4l1jRStx6ax1Y?e=ijGpeT">here</a>.</p>
 </section>
 <section id="general-resources">
 <h1>General Resources<a class="headerlink" href="#general-resources" title="Link to this heading">¶</a></h1>
@@ -259,6 +268,7 @@ For postgraduates and staff, <strong>if a meeting is not held on a given week</s
 <li><a class="reference internal" href="#tutorials">Tutorials</a></li>
 <li><a class="reference internal" href="#computing-facilities">Computing Facilities</a></li>
 <li><a class="reference internal" href="#administration-phd">Administration (PhD)</a></li>
+<li><a class="reference internal" href="#administration-other">Administration (Other)</a></li>
 <li><a class="reference internal" href="#general-resources">General Resources</a></li>
 </ul>
 

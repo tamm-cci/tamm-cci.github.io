@@ -1,0 +1,529 @@
+
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+      <meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="docsearch:name" content="FHI-aims UK Meeting 2024" />
+    <meta name="docsearch:package_type" content="" />
+    <meta name="docsearch:release" content="" />
+    <meta name="docsearch:version" content="" />
+    
+      <title>FHI-aims UK Meeting 2024 &mdash; FHI-aims UK Meeting 2024  documentation</title>
+    
+    <link rel="stylesheet" href="static/bootstrap-icons.css" type="text/css" />
+          <!-- add (1) pathto "_CascadingStyleSheet('static/pygments.css', priority=200, rel='stylesheet', type='text/css')" -->
+          <link rel="stylesheet" type="text/css" href="static/pygments.css?v=b76e3c8a" />
+          <!-- add (1) pathto "_CascadingStyleSheet('static/pygments_dark.css', priority=500, rel='stylesheet', type='text/css', media='(prefers-color-scheme: dark)', id='pygments_dark_css')" -->
+          <link id="pygments_dark_css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css" href="static/pygments_dark.css?v=e15ddae3" />
+          <!-- add (1) pathto "_CascadingStyleSheet('static/colorsets/sphinx-nefertiti-indigo-0.3.2.min.css', priority=500, rel='stylesheet', type='text/css')" -->
+          <link rel="stylesheet" type="text/css" href="static/colorsets/sphinx-nefertiti-indigo-0.3.2.min.css" />
+          <!-- add (1) pathto "_CascadingStyleSheet('static/fonts/montserrat/stylesheet.css', priority=500, rel='stylesheet', type='text/css')" -->
+          <link rel="stylesheet" type="text/css" href="static/fonts/montserrat/stylesheet.css" />
+          <!-- add (1) pathto "_CascadingStyleSheet('static/fonts/red-hat-mono/stylesheet.css', priority=500, rel='stylesheet', type='text/css')" -->
+          <link rel="stylesheet" type="text/css" href="static/fonts/red-hat-mono/stylesheet.css" />
+        <link rel="index" title="Index" href="genindex.html" />
+        <link rel="search" title="Search" href="search.html" />
+        <link rel="top" title="FHI-aims UK Meeting 2024  documentation" href="#" />
+    <style>
+      :root {
+        --nftt-body-font-family: "Montserrat", var(--nftt-font-sans-serif) !important;
+        --nftt-font-monospace: "Red Hat Mono", var(--nftt-font-family-monospace) !important;
+        --nftt-project-name-font: var(--nftt-body-font-family);
+        --nftt-documentation-font: "Montserrat", var(--nftt-body-font-family);
+        --nftt-doc-headers-font: "Montserrat", var(--nftt-documentation-font);}
+      h1 *, h2 *, h3 *, h4 *, h5 *, h6 * { font-size: inherit; }
+    </style>
+  </head>
+  <body>
+    <header class="navbar navbar-expand-xl navbar-dark nftt-navbar flex-column fixed-top">
+      <div class="skip-links container-fluid visually-hidden-focusable overflow-hidden justify-content-start flex-grow-1">
+        <div class="border-bottom mb-2 pb-2 w-100">
+          <a class="d-none d-md-inline-flex p-2 m-1" href="#sidebar-filter">Skip to docs navigation</a>
+          <a class="d-inline-flex p-2 m-1" href="#content">Skip to main content</a>
+        </div>
+      </div>
+      <nav class="container-xxl nftt-gutter flex-wrap flex-xl-nowrap" aria-label="Main navigation">
+        <div class="nftt-navbar-toggler">
+          <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar" aria-label="Toggle documentation navigation">
+            <i class="bi bi-list"></i>
+          </button>
+        </div>
+          <a href="#"
+              
+              class="navbar-brand p-0 me-0 md-lg-2"
+          ><span class="brand-text">FHI-aims UK Meeting 2024</span></a>
+        
+        <div class="d-flex d-xl-none">
+          <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#nfttSearch" aria-controls="nfttSearch" aria-label="Search">
+            <i class="bi bi-search"></i>
+          </button>
+          <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#nfttNavbar" aria-controls="nfttNavbar" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+        </div>
+        
+<div class="offcanvas-xl offcanvas-end flex-grow-1" tabindex="-1" id="nfttSearch" aria-labelledby="nfttSearchOffcanvasLabel" data-bs-scroll="true">
+  <div class="offcanvas-header px-4 pb-0">
+    <h5 class="offcanvas-title fw-bold" id="nfttSearchOffcanvasLabel">Search the documentation</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#nfttSearch"></button>
+  </div>
+  <div class="offcanvas-body p-4 pt-0 p-xl-0 px-xl-3">
+    <hr class="d-xl-none text-white-50">
+    <ul class="navbar-nav flex-row align-items-center flex-wrap ms-md-auto">
+      <li class="nav-item col-12 col-xl-auto">
+        <form id="nftt-search-form" action="search.html" method="get">
+          <div class="input-group">
+            <input type="text" name="q" class="form-control" placeholder="Search docs" aria-label="Search" aria-describedby="button-search">
+            <input type="hidden" name="check_keywords" value="yes" />
+            <input type="hidden" name="area" value="default" />
+            <button class="btn btn-primary" type="submit" id="button-search" aria-label="Search"><i class="bi bi-search"></i></button>
+          </div>
+        </form>
+      </li>
+    </ul>
+  </div>
+</div>
+
+        <div class="offcanvas-xl offcanvas-end" tabindex="-1" id="nfttNavbar" aria-labelledby="nfttNavbarOffcanvasLabel" data-bs-scroll="true">
+          <div class="offcanvas-header px-4 pb-0">
+            <div class="offcanvas-title navbar-brand" id="nfttNavbarOffcanvasLabel"><span class="brand-text">Nefertiti for Sphinx</span></div>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#nfttNavbar"></button>
+          </div>
+          <div class="offcanvas-body p-4 pt-0 p-xl-0 px-xl-3">
+            <hr class="d-xl-none text-white-50">
+            <ul class="navbar-nav flex-row align-items-center flex-wrap ms-lg-auto">
+              
+              <!-- version_dropdown.html -->
+
+              
+              <!-- colorscheme_dropdown.html -->
+<li class="nav-item dropdown">
+  <a class="nav-link d-flex py-2 px-0 px-xl-2 dropdown-toggle align-items-center" id="snftt-luz" href="#" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false" aria-label="Toggle light/dark">
+    <i class="bi bi-circle-half" data-snftt-luz-icon-active></i>
+    <span id="snftt-luz-text" class="d-xl-none small ms-2">Toggle light/dark</span>
+  </a>
+  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="snftt-luz-text">
+    <li>
+      <h6 class="dropdown-header">Light/dark</h6>
+    </li>
+    <li>
+      <a class="dropdown-item d-flex align-items-center" data-snftt-luz="light" href="#" aria-pressed="false">
+        <span class="small">
+          <i class="bi bi-sun" data-snftt-luz-icon="light"></i>
+        </span>
+        <span class="small ms-3">Light</span>
+        <i class="bi bi-check ms-auto"></i>
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item d-flex align-items-center" data-snftt-luz="dark" href="#" aria-pressed="false">
+        <span class="small">
+          <i class="bi bi-moon-stars" data-snftt-luz-icon="dark"></i>
+        </span>
+        <span class="small ms-3">Dark</span>
+        <i class="bi bi-check ms-auto"></i>
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item current d-flex align-items-center" data-snftt-luz="default" href="#" aria-pressed="false">
+        <span class="small">
+          <i class="bi bi-circle-half" data-snftt-luz-icon="default"></i>
+        </span>
+        <span class="small ms-3">Default</span>
+        <i class="bi bi-check ms-auto"></i>
+      </a>
+    </li>
+  </ul>
+</li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container-fluid flex-grow-1">
+      <div class="nftt-gutter nftt-page">
+        <aside class="nftt-sidebar ">
+          <div class="nftt-sidebar-content">
+            
+            <div class="title d-none d-xl-block">
+              <i class="bi bi-book"></i>&nbsp;&nbsp;<span>Index</span>
+            </div>
+            <div id="sidebar" tabindex="-1" class="offcanvas-xl offcanvas-start" aria-labelledby="nfttSidebarOffcanvasLabel">
+                <!-- danirus sidebartemplate: "globaltoc.html" --><div class="offcanvas-header border-bottom">
+  <h5 class="offcanvas-title fw-bold" id="nfttSidebarOffcanvasLabel">
+    Table of contents
+  </h5>
+  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#sidebar"></button>
+</div>
+
+<div class="offcanvas-body">
+  <nav class="toc" aria-label="Main menu">
+    <div class="mb-3 p-1 pt-3 pb-4 border-bottom">
+      <input id="sidebar-filter" type="text" name="filter" class="form-control form-control-sm" placeholder="filter" aria-label="filter">
+    </div>
+    
+  </nav>
+  <template data-toggle-item-template>
+    <button class="btn btn-sm btn-link toctree-expand" type="button">
+      <i class="bi bi-caret-right"></i>
+      <span class="visually-hidden">Toggle menu contents</span>
+    </button>
+  </template>
+</div>
+            </div>
+            
+          </div>
+        </aside>
+        <article id="content" class="nftt-content" role="main">
+    <img alt="images/FHI-aims-logo.png" class="align-center" src="images/FHI-aims-logo.png" />
+<section id="fhi-aims-uk-meeting-2024">
+<h1>FHI-aims UK Meeting 2024<a class="headerlink" href="#fhi-aims-uk-meeting-2024" title="Link to this heading">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<section id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Link to this heading">¶</a></h2>
+<p>The FHI-aims UK Meeting will unite both the users and developers of FHI-aims to delve into to and exchange ideas
+on the applications and effects of FHI-aims within institutions in the United Kingdom. The event will also showcase the latest
+features and advancements in the software.</p>
+<a class="reference external image-reference" href="./images/conference_photo.jpg"><img alt="images/reduced_resolution_conference_photo.jpg" src="images/reduced_resolution_conference_photo.jpg" /></a>
+</section>
+<section id="time-and-place">
+<h2>Time and Place<a class="headerlink" href="#time-and-place" title="Link to this heading">¶</a></h2>
+<p>The meeting will take place at <a class="reference external" href="https://warwick.ac.uk/">The University of Warwick</a> from <strong>May 15th to May 16th 2024</strong> and will include:</p>
+<ul class="simple">
+<li><p>Tutorials: 09:00 - 12:00 May 15th</p></li>
+<li><p>Presentations and Posters: 12:00 May 15th - 13:00 May 16th</p></li>
+<li><p>Hack: 14:00 - 18:00 May 16th</p></li>
+</ul>
+<p>The venue for the meeting is the Science Concourse within the Physics Department of the University of Warwick.
+Directions can be found on this <a class="reference external" href="https://campus.warwick.ac.uk/">interactive campus map</a>.</p>
+<p>Directions to the conference rooms, campus accomodation and dinner location can be found on <a class="reference external" href="./images/Map2.png">this map</a>.</p>
+</section>
+<section id="accommodation-and-travel">
+<h2>Accommodation and Travel<a class="headerlink" href="#accommodation-and-travel" title="Link to this heading">¶</a></h2>
+<p>Accommodation options include a limited number of rooms available to be booked on the university campus for attendees through <a class="reference external" href="https://warwick.ac.uk/services/conferences/bed-and-breakfast/">Warwick Conferences</a>.
+Alternatively, accommodation is generally available within Coventry city (a short bus ride from the campus).</p>
+<p>Travel to the University of Warwick is achieved easily through rail connections to <strong>Coventry station</strong> and then a bus journey from outside the station to the campus.
+More information about how to get to the university can be found on the <a class="reference external" href="https://warwick.ac.uk/about/visiting/directions/">university website</a>.</p>
+</section>
+<section id="tutorials">
+<h2>Tutorials<a class="headerlink" href="#tutorials" title="Link to this heading">¶</a></h2>
+<p>Tutorials will run in a linear fashion form 09:00 to 12:00 on May 15th, with a coffee break at 10:00. The tutorials will cover, in order; an introduction to FHI-aims, hybrid DFT (including a discussion on performance optimisation), RPA and GW. Simultaneously, there will also be expert offshoots to discuss particular methods or topics.</p>
+<p>The sessions will be hands-on and require a precompiled FHI-aims binary and license. Instructions for obtaining the software can be found <a class="reference external" href="https://fhi-aims.org/get-the-code-menu/get-the-code/">on the FHI-aims webpage</a>, and any license requirements should be completed prior to arrival. Support will also be available onsite from MS1P.</p>
+</section>
+<section id="hack">
+<h2>Hack<a class="headerlink" href="#hack" title="Link to this heading">¶</a></h2>
+<p>Following the presentation schedule of the meeting, all attendees are invited to a code hack, wherein the developers of the codebase will get together and take part in some
+collaborative coding. The organisers would like to invite anyone with a suggestion for features to be included in FHI-aims to discuss these at the meeting with the
+developers. <a class="reference external" href="https://aims-git.rz-berlin.mpg.de/aims/FHIaims/-/issues/549">Ideas for topics to address can be logged on a GitLab issue here</a>.</p>
+</section>
+<section id="registration">
+<h2>Registration<a class="headerlink" href="#registration" title="Link to this heading">¶</a></h2>
+<p><strong>Registration is now closed.</strong></p>
+</section>
+<section id="programme">
+<h2>Programme<a class="headerlink" href="#programme" title="Link to this heading">¶</a></h2>
+<section id="invited-participants">
+<h3>Invited Participants<a class="headerlink" href="#invited-participants" title="Link to this heading">¶</a></h3>
+<p><a class="reference external" href="http://dorotheagolze.eu/">Dr Dorothea Golze</a>, Technische Universität Dresden</p>
+<p><a class="reference external" href="https://litman90.github.io/website/">Dr Yair Litman</a>, University of Cambridge</p>
+<p><a class="reference external" href="https://www.fhi.mpg.de/1335369/carbogno_group">Dr Christian Carbogno</a>, Fritz Haber Insitute</p>
+<p><a class="reference external" href="https://mems.duke.edu/faculty/volker-blum">Prof. Dr Volker Blum</a>, Duke University</p>
+<p><a class="reference external" href="https://www.ms1p.org/index.php?n=MS1P.AboutUs">Dr Sebastian Kokott</a>, Fritz Haber Institute</p>
+<p><a class="reference external" href="https://researchportal.northumbria.ac.uk/en/persons/prakriti-kayastha">Prakriti Kayastha</a>, Northumbria University</p>
+</section>
+<section id="meeting-programme">
+<h3>Meeting Programme<a class="headerlink" href="#meeting-programme" title="Link to this heading">¶</a></h3>
+<table class="table-hover table-bordered table-striped docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Time</p></th>
+<th class="head"><p>Room / Chair</p></th>
+<th class="head"><p><em>15/05/2024</em></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>08:30</p></td>
+<td><p>Outside PLT</p></td>
+<td><p>Registration/Information</p></td>
+</tr>
+<tr class="row-odd"><td><p>09:00</p></td>
+<td><p>PLT</p></td>
+<td><p>Tutorials - <a class="reference external" href="./presentations/Tutorials_Part_1.pdf">Hybrid DFT with FHI-aims</a></p></td>
+</tr>
+<tr class="row-even"><td><p>10:00</p></td>
+<td><p>Outside PLT</p></td>
+<td><p><strong>Coffee Break</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>10:30</p></td>
+<td><p>PLT</p></td>
+<td><p>Tutorials - <a class="reference external" href="./presentations/Tutorials_Part_2.pdf">GW and BSE</a></p></td>
+</tr>
+<tr class="row-even"><td><p>12:00</p></td>
+<td><p>Outside PLT</p></td>
+<td><p><strong>Lunch</strong>/Registration/Information</p></td>
+</tr>
+<tr class="row-odd"><td rowspan="2"><p>13:00</p></td>
+<td rowspan="2"><p>L4 /
+Svenja Janke</p></td>
+<td><p>Volker Blum</p></td>
+</tr>
+<tr class="row-even"><td><p>Overview of FHI-aims</p></td>
+</tr>
+<tr class="row-odd"><td rowspan="2"><p>13:20</p></td>
+<td rowspan="2"></td>
+<td><p>Dorothea Golze</p></td>
+</tr>
+<tr class="row-even"><td><p>Low-scaling RPA and GW developments in FHI-aims</p></td>
+</tr>
+<tr class="row-odd"><td><p>14:00</p></td>
+<td></td>
+<td><p><strong>Break</strong></p></td>
+</tr>
+<tr class="row-even"><td rowspan="2"><p>14:30</p></td>
+<td rowspan="2"><p>L4 /
+Connor Box</p></td>
+<td><p>Dylan Morgan</p></td>
+</tr>
+<tr class="row-odd"><td><p>Using Orbital-Constrained DFT to Simulate Surface Spectroscopy with Relativistic Corrections</p></td>
+</tr>
+<tr class="row-even"><td rowspan="2"><p>14:50</p></td>
+<td rowspan="2"></td>
+<td><p>Wenxuan Cai</p></td>
+</tr>
+<tr class="row-odd"><td><p>Modeling core-electron binding energy on Metal Oxide</p></td>
+</tr>
+<tr class="row-even"><td rowspan="2"><p>15:10</p></td>
+<td rowspan="2"></td>
+<td><p>Amit Chaudhari</p></td>
+</tr>
+<tr class="row-odd"><td><p>Machine learning the DFT+U projectors to model polarons in energy materials</p></td>
+</tr>
+<tr class="row-even"><td><p>15:30</p></td>
+<td><p>Outside L4</p></td>
+<td><p><strong>Refreshments</strong></p></td>
+</tr>
+<tr class="row-odd"><td rowspan="2"><p>16:00</p></td>
+<td rowspan="2"><p>L4 /
+Pavel
+Stishenko</p></td>
+<td><p>Prakriti Kayastha</p></td>
+</tr>
+<tr class="row-even"><td><p>Phase transitions in perovskites using machine learning potentials</p></td>
+</tr>
+<tr class="row-odd"><td rowspan="2"><p>16:20</p></td>
+<td rowspan="2"></td>
+<td><p>Akash Hiregange</p></td>
+</tr>
+<tr class="row-even"><td><p>Computational Insights into the Stability and Phase Transition of Cobalt Oxide Nanoparticles for Fischer-Tropsch Catalysis</p></td>
+</tr>
+<tr class="row-odd"><td rowspan="2"><p>16:40</p></td>
+<td rowspan="2"></td>
+<td><p>Juliana Morbec</p></td>
+</tr>
+<tr class="row-even"><td><p>Adsorption of azulene and naphthalene on coinage metal surfaces: insights from first-principles calculations</p></td>
+</tr>
+<tr class="row-odd"><td><p>17:00</p></td>
+<td><p>Science
+Concourse</p></td>
+<td><p><strong>Poster Session</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>18:30</p></td>
+<td></td>
+<td><p><strong>Close</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>19:00</p></td>
+<td><p>Conference
+Centre</p></td>
+<td><p><strong>Dinner</strong></p></td>
+</tr>
+</tbody>
+</table>
+<table class="table-hover table-bordered table-striped docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Time</p></th>
+<th class="head"><p>Room / Chair</p></th>
+<th class="head"><p><em>16/05/2024</em></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>08:50</p></td>
+<td></td>
+<td><p>Arrival</p></td>
+</tr>
+<tr class="row-odd"><td rowspan="2"><p>09:00</p></td>
+<td rowspan="2"><p>L3 /
+Prakriti
+Kayastha</p></td>
+<td><p>Christian Carbogno</p></td>
+</tr>
+<tr class="row-even"><td><p>Charge Transport in FHI-aims: Opportunities and Challenges</p></td>
+</tr>
+<tr class="row-odd"><td rowspan="2"><p>09:40</p></td>
+<td rowspan="2"></td>
+<td><p>Svenja Janke</p></td>
+</tr>
+<tr class="row-even"><td><p>Hybrid Organic-Inorganic Perovskites</p></td>
+</tr>
+<tr class="row-odd"><td><p>10:00</p></td>
+<td><p>Outside L3</p></td>
+<td><p><strong>Refreshments</strong></p></td>
+</tr>
+<tr class="row-even"><td rowspan="2"><p>10:30</p></td>
+<td rowspan="2"><p>L3 / Oscar
+van Vuren</p></td>
+<td><p>Gabriel Bramley</p></td>
+</tr>
+<tr class="row-odd"><td><p>Implementation of QM-in-QM Embedding for FHI-aim</p></td>
+</tr>
+<tr class="row-even"><td rowspan="2"><p>10:50</p></td>
+<td rowspan="2"></td>
+<td><p>Alan Lewis</p></td>
+</tr>
+<tr class="row-odd"><td><p>Symmetry-Adapted Learning of Three-Dimensional Electron Densities (SALTED)</p></td>
+</tr>
+<tr class="row-even"><td rowspan="2"><p>11:10</p></td>
+<td rowspan="2"></td>
+<td><p>Erin Johnson</p></td>
+</tr>
+<tr class="row-odd"><td><p>Implementation, benchmarking, and applications of the XDM dispersion model in FHI-aims</p></td>
+</tr>
+<tr class="row-even"><td><p>11:30</p></td>
+<td></td>
+<td><p><strong>Break</strong></p></td>
+</tr>
+<tr class="row-odd"><td rowspan="2"><p>12:00</p></td>
+<td rowspan="2"><p>L3 / James
+Green</p></td>
+<td><p>Pavel Stishenko</p></td>
+</tr>
+<tr class="row-even"><td><p>Using multipolar expansion model of implicit solvent for periodic systems and clusters</p></td>
+</tr>
+<tr class="row-odd"><td rowspan="2"><p>12:20</p></td>
+<td rowspan="2"></td>
+<td><p>Yair Litman</p></td>
+</tr>
+<tr class="row-even"><td><p>Surface-specific spectroscopy from first principles</p></td>
+</tr>
+<tr class="row-odd"><td><p>13:00</p></td>
+<td><p>Outside PLT</p></td>
+<td><p><strong>Lunch</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>14:00</p></td>
+<td><p>PLT</p></td>
+<td><p><strong>Hack</strong> (all welcome!)</p></td>
+</tr>
+<tr class="row-odd"><td><p>18:00</p></td>
+<td></td>
+<td><p><strong>Close</strong></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="presented-posters">
+<h2>Presented posters<a class="headerlink" href="#presented-posters" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Zhongwei Lu, <em>“Towards CO2 activation on Co modified Cu surfaces”</em></p></li>
+<li><p>Oscar van Vuren, <em>“Developing Standardised Modelling Workflows for QM/MM Simulations of Metal Oxides”</em></p></li>
+<li><p>Matt Robinson, <em>“Tuning Zeolite Catalysts using Organic Additives”</em></p></li>
+<li><p>Kushagra Agrawal, <em>“Optimizing Guerbet Reaction Chemistry Using Data-driven Approach.”</em></p></li>
+<li><p>Alexander Spears, <em>“Molecular dynamics investigation of the role of lattice heating in laser-driven hydrogen evolution at copper surfaces”</em></p></li>
+<li><p>Nils Hertl, <em>“Assessing different levels of electronic friction theory for H atom scattering and vibration dynamics at metals surfaces”</em></p></li>
+<li><p>Wojciech Stark, <em>“Nonadiabatic effects in hydrogen scattering dynamics at Cu surfaces”</em></p></li>
+<li><p>Eimear McCarthy, <em>“Exploring surface reconstruction of polar zinc oxide surfaces”</em></p></li>
+<li><p>Lukas Hoermann, <em>“Optimization of incommensurate organic/inorganic interface structures to study superlubricity”</em></p></li>
+</ul>
+</section>
+<section id="organising-committee">
+<h2>Organising Committee<a class="headerlink" href="#organising-committee" title="Link to this heading">¶</a></h2>
+<p>Prof. Reinhard Maurer (University of Warwick)</p>
+<p>Dr Andrew Logsdail (Cardiff University)</p>
+<p>Dr Connor Box (University of Warwick)</p>
+<p>Dr Svenja Janke (University of Warwick)</p>
+<p>Dr Pavel Stishenko (Cardiff University)</p>
+<p>Oscar van Vuren (Cardiff University)</p>
+<p>The organisers would be happy to answer any queries via <a class="reference external" href="mailto:vanvureno&#37;&#52;&#48;cardiff&#46;ac&#46;uk">email</a>.</p>
+</section>
+</section>
+
+</article>
+        <aside class="nftt-toc">
+          
+          <div class="mt-3 mb-1 my-lg-0 ps-xl-3 text-muted">
+            <button class="btn btn-link link-dark p-lg-0 mb-2 mb-lg-0 text-decoration-none nftt-toc-toggle d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#tocContents" aria-expanded="false" aria-controls="tocContents"
+            >On this page <i class="ms-2 bi bi-chevron-expand"></i></button>
+            <div class="title d-none d-lg-block">
+              <i class="bi bi-file-earmark-text"></i>&nbsp;&nbsp;<span class="small">On this page</span>
+            </div>
+            <div class="collapse nftt-toc-collapse" id="tocContents">
+              <nav id="TableOfContents">
+                <ul>
+<li><a class="reference internal" href="#">FHI-aims UK Meeting 2024</a><ul>
+<li><a class="reference internal" href="#overview">Overview</a></li>
+<li><a class="reference internal" href="#time-and-place">Time and Place</a></li>
+<li><a class="reference internal" href="#accommodation-and-travel">Accommodation and Travel</a></li>
+<li><a class="reference internal" href="#tutorials">Tutorials</a></li>
+<li><a class="reference internal" href="#hack">Hack</a></li>
+<li><a class="reference internal" href="#registration">Registration</a></li>
+<li><a class="reference internal" href="#programme">Programme</a><ul>
+<li><a class="reference internal" href="#invited-participants">Invited Participants</a></li>
+<li><a class="reference internal" href="#meeting-programme">Meeting Programme</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#presented-posters">Presented posters</a></li>
+<li><a class="reference internal" href="#organising-committee">Organising Committee</a></li>
+</ul>
+</li>
+</ul>
+
+              </nav>
+            </div>
+          </div>
+          
+        </aside>
+      </div>
+    </div>
+
+    <footer class="nftt-footer">
+      
+<nav id="paginator"></nav>
+
+      <div class="py-5 px-4 px-md-3">
+  <div class="container">
+    
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <a class="brand-text d-inline-flex align-items-center mb-2 text-decoration-none" href="/" aria-label="Nefertiti-for-Sphinx">
+          <span class="fs-6 fw-bold">FHI-aims UK Meeting 2024</span>
+        </a>
+        
+          <ul class="list-unstyled small text-muted">
+            <li>2024, Oscar van Vuren and Andrew Logsdail</li>
+          </ul>
+        
+        
+        <div class="built-with pt-2">
+          Built with <a href="http://sphinx-doc.org">Sphinx 7.2.6</a> and <a href="https://github.com/danirus/sphinx-nefertiti">Nefertiti 0.3.2</a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+    </footer>
+    <script src="static/documentation_options.js?v=5929fcd5"></script>
+    <script src="static/doctools.js?v=888ff710"></script>
+    <script src="static/sphinx_highlight.js?v=dc90522c"></script>
+
+    <script type="text/javascript" src="static/sphinx-nefertiti-0.3.2.min.js"></script>
+    <script type="text/javascript" src="static/bootstrap.bundle-0.3.2.min.js"></script>
+    
+    <script type="text/javascript" src="static/doc_versions.js"></script>
+  </body>
+</html>
