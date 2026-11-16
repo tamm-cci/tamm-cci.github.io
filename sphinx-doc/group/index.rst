@@ -29,11 +29,9 @@ Meetings
 
 Tools
 -----
-* `Slack <https://join.slack.com/t/tamm-cci/shared_invite/zt-9qqnftiv-bPRJ_H~I45bt3kVZzoxiww>`_ : Communication platform for the group.
+* `Slack <https://slack.com>`_ : Communication platform for the group - ask a friendly face for an invite to our channel!
 
 * `Trello <https://trello.com>`_ : Project planning platform - prompt Andy to setup a board for your project if necessary.
-
-* Also prompt Andy (via email to LogsdailA@cardiff.ac.uk) to organise keycard access for your office!
 
 * `GitHub <https://github.com/tamm-cci/carmm/>`_ : For those keen to engage with software development, our scripts/software are stored here. Tutorial examples are also available `here <https://github.com/tamm-cci/external_examples>`_.
 
