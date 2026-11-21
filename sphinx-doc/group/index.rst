@@ -35,6 +35,8 @@ Tools
 
 * `GitHub <https://github.com/tamm-cci/carmm/>`_ : For those keen to engage with software development, our scripts/software are stored here. Tutorial examples are also available `here <https://github.com/tamm-cci/external_examples>`_.
 
+* `Claude Science <https://claude.com/product/claude-science>`_: We have a Claude Science subscription - prompt Andy if you'd like access (and remember to use AI responsibly).
+
 .. note:: If you can't find a tool that does what you want online, or are creating your own scripts, someone in the group may well have worked on a similar problem before. Save yourself effort by and help our collegiate effort by joining our `GitHub <https://github.com/tamm-cci/carmm/>`_ and adding/developing the available software! An `internal folder <https://cf-my.sharepoint.com/:f:/g/personal/logsdaila_cardiff_ac_uk/EpGS8SZBWH9Gi-1RAetBIb8BB1wV7KDaKAaeP-Ln4kn8XA?e=ELaqO3>`_ also exists for miscellaneous scripts/guides.
 
 Tutorials
